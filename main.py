@@ -24,15 +24,15 @@ class Answer(BaseModel):
     isCorrect: bool
 
 gabarito = {
-    1: "A",
+    1: "C",
     2: "A",
     3: "A",
     4: "B",
-    5: "C",
-    6: "B",
-    7: "A",
-    8: "B",
-    9: "A"
+    5: "D",
+    6: "C",
+    7: "C",
+    8: "D",
+    9: "D"
 }
 
 
@@ -40,12 +40,12 @@ topicos = {
     1: 'conceito',
     2: 'primeiros socorros',
     3: 'prevenção',
-    4: 'causas',
+    4: 'riscos',
     5: 'primeiros socorros',
-    6: 'causas',
+    6: 'riscos',
     7: 'primeiros socorros',
-    8: 'incêndio',
-    9: 'incêndio'
+    8: 'Segurança em situações de emergência',
+    9: 'Segurança em situações de emergência'
 }
 
 
