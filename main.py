@@ -67,7 +67,7 @@ def filterCorrect(value):
     return valueL
 
 
-@app.post("/api/sugerVideo")
+@app.post("/api/score")
 async def sugerVideo(listValue: List[Answer]):    
     asnswerValues = dict()
     errosSave = defaultdict(int)
