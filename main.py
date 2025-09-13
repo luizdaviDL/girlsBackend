@@ -9,7 +9,9 @@ app = FastAPI()
 # CORS para permitir requisições do React
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Altere para o domínio do seu frontend se quiser restringir
+    allow_origins=["https://front-girls.vercel.app",
+    "http://localhost:5173",
+    ],  # Altere para o domínio do seu frontend se quiser restringir
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
