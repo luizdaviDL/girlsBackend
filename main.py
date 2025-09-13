@@ -44,8 +44,8 @@ topicos = {
     5: 'primeiros socorros',
     6: 'riscos',
     7: 'primeiros socorros',
-    8: 'Segurança em situações de emergência',
-    9: 'Segurança em situações de emergência'
+    8: 'Segurança',
+    9: 'Segurança'
 }
 
 
